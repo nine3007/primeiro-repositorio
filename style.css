@@ -2,6 +2,7 @@ body {
      background-color: rgb(0, 1, 2);
      color: rgb(255, 253, 253);
      margin: 0px;
+     font-family: lobster&display;
 }
 
 header {
@@ -11,7 +12,8 @@ header {
   color: rgb(255, 247, 247);
 }
 
-section{
+.chamada {
+
    background-color: #ff0303;
   padding-bottom: 80px;
   padding-top: 80px;
@@ -30,3 +32,21 @@ p {
     color: azure;
     font-size: 16px;
 }
+
+
+.categoria-videos
+display:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
