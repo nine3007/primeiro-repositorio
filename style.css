@@ -2,7 +2,8 @@ body {
      background-color: rgb(0, 1, 2);
      color: rgb(255, 253, 253);
      margin: 0px;
-     font-family: lobster&display;
+     font-family: "Lobster display", sans-serif;
+    margin-bottom:  100px;
 }
 
 header {
@@ -13,17 +14,17 @@ header {
 }
 
 .chamada {
-
-   background-color: #ff0303;
+   background-color: #9a3535;
   padding-bottom: 80px;
   padding-top: 80px;
   display: flex;
   justify-content: center;
 }
 
-.chamada{
+.chamada-texto {
   margin-right: 5%;
 }
+
 h1 {
     font-size: 30px;
 }
@@ -31,11 +32,28 @@ h1 {
 p {
     color: azure;
     font-size: 16px;
+    gap: 10px;
 }
 
+.categoria-videos {
+  display: flex;
+  overflow: auto;
+}
 
-.categoria-videos
-display:
+.categoria {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+  .categoria-videos img{
+    opacity: 0.5;
+    height: 200px;
+  }
+
+.categoria-videos img:hover {
+  opacity: 1.0;
+  border: 1px solide green;
+}
 
 
 
